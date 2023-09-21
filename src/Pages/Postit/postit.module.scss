@@ -1,0 +1,45 @@
+.container {
+    display: inline-block;
+
+
+
+    .postIt {
+        width: 200px;
+        height: 200px;
+        border: 10px solid #fff;
+        position: relative;
+        top: 200px;
+        left: 200px;
+       
+        color: #fff;
+      }
+      
+      .blue {
+        background-color: blue;
+      }
+      
+      .orange {
+        background-color: rgb(156, 115, 37);
+      }
+      
+      .red {
+        background-color: red;
+      }
+      
+      .green {
+        background-color: green;
+      }
+      
+      .purple {
+        background-color: purple;
+      }
+      
+      .content {
+        padding: 10px;
+        cursor: pointer;
+        user-select: none;
+      }
+}
+
+
+
